@@ -1,0 +1,1181 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Poppins:wght@700;800;900&family=Share+Tech&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Poppins:wght@300;400;700;800;900&family=Share+Tech&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.design {
+  width: 347.5px;
+  transform: scale(0.8);
+  }
+  .WhiteCard {
+    background-color: #fff;
+    width: 93%;
+    border-radius: 40px;
+    height: 70%;
+    position: absolute;
+    left: 3.5%;
+    top: 23%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    background-image: none;
+  }
+  
+  .WhiteCard_Register {
+    background-color: #fff;
+    width: 93%;
+    border-radius: 40px;
+    height: 79%;
+    position: absolute;
+    left: 3.5%;
+    top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    background-image: none;
+  }
+  
+  .Register_design{
+    transform: scale(0.8);
+    width: 60%;
+    height: 31%;
+    position: absolute;
+    top: 25%;
+  }
+  .card {
+    background-color: #d9d9d9;
+    width: 96%;
+    height: 40rem;
+    position: absolute;
+    /* display: flex;
+    justify-content: center; */
+    left: 2%;
+    top: 12%;
+    border-radius: 40px;
+    background-image: none;
+  }
+  .Image {
+    border-radius: 20px;
+  }
+  
+  .Rohit {
+    height: 200px;
+    position: absolute;
+  }
+  .faculty-content h1 {
+    font-family: share tech;
+    position: absolute;
+    left: 37%;
+    top: 14%;
+    font-size: 40px;
+    font-weight: 400;
+    background: #d9d9d9;
+  }
+  
+  .about-content h1 {
+    font-family: share tech;
+    position: absolute;
+    left: 29%;
+    top: 14%;
+    width: 50%;
+    font-size: 2.5rem;
+    font-weight: 400;
+    background: #d9d9d9;
+  }
+  
+  .mobile_design {
+    display: none;
+  }
+  
+  .picture-card:hover {
+    cursor: pointer;
+  }
+  .footer-below:hover {
+    cursor: pointer;
+  }
+  
+  .Header {
+    position: sticky;
+  }
+  .footer-container {
+    border-top: 3px solid #fff;
+    margin-top: 5vh;
+  }
+  
+  .footer-main {
+    width: 90vw;
+    height: 40vh;
+  }
+  
+  .picture-card {
+    height: 35vh;
+    width: 15vh;
+    background: #1e1e1e;
+  }
+  .bg-color {
+    height: 34vh;
+    width: 15vh;
+  }
+  
+  .picture img {
+    width: 15vw;
+    height: 29vh;
+    scale: 0.9;
+    object-fit: cover;
+  }
+  
+  .home-container {
+    width: 95 vw;
+    height: 80vh;
+    overflow-x: hidden;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .home-content {
+    width: 90vw;
+    height: 60vh;
+  }
+  .main-upside {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .upside-left {
+    width: 40vw;
+    margin-left: 5vw;
+    overflow-x: hidden;
+  }
+  
+  .upside-right img {
+    width: 20vw;
+    overflow: hidden;
+    overflow-x: hidden;
+    object-fit: cover;
+    border: 2px white solid;
+    border-radius: 50%;
+    margin-top: -15vh;
+    margin-bottom: 12vh;
+  }
+  .below-left {
+    width: 50%;
+    margin-left: 16vw;
+  }
+  
+  .footer_facultypage {
+    position: absolute;
+    top: 800px;
+  }
+  .footer_Registrypage {
+    position: absolute;
+    top: 800px;
+  }
+  
+  .Left_design {
+    width: 31%;
+    height: 63%;
+    position: absolute;
+    top: -4.5%;
+    left: -0.2%;
+  }
+  
+  .Right_design {
+    width: 31%;
+    height: 63%;
+    position: absolute;
+    top: -4.5%;
+    left: 69.2%;
+    transform: scaleX(-1);
+  }
+  
+  .WhiteCard section h4 {
+    font-size: 1.5vw;
+    position: absolute;
+    top: 210px;
+    left: 46%;
+    font-family: poppins;
+    font-weight: 600;
+  }
+  
+  .WhiteCard section h5 {
+    font-size: 1vw;
+    position: absolute;
+    top: 240px;
+    left: 43%;
+    font-family: poppins;
+    font-weight: 400;
+  }
+  .WhiteCard section h6 {
+    font-size: 1vw;
+    position: absolute;
+    top: 260px;
+    left: 36%;
+    font-family: poppins;
+    font-weight: 400;
+  }
+  .WhiteCard section p {
+    font-size: 1.3vw;
+    position: absolute;
+    text-align: center;
+    top: 320px;
+    left: 0px;
+    margin: 30px;
+    font-family: poppins;
+    font-weight: 400;
+  }
+
+  .Transperent_card{
+    background-color: #1E1E1EB2;
+    width: 96%;
+    height: 42rem;
+    position: absolute;
+    /* display: flex; */
+    left: 2%;
+    top: 12%;
+    border-radius: 20px;
+  }
+  .h1_name_RegisterPage{
+    font-family: Share tech;
+    
+  }
+  /* media query */
+  
+  @media screen and (max-width: 299px) {
+    .footer-container {
+      gap: -20px;
+    }
+  
+    .navbar-container .link {
+      font-size: 0.5rem;
+    }
+    .picture-card {
+      scale: 0.4;
+      margin-top: -50px;
+      margin-left: -15px;
+    }
+    .picture img {
+      width: 150%;
+    }
+    .Tech-Buzz {
+      width: 150px;
+    }
+    .logo-image {
+      scale: 1.2;
+    }
+    .logo-para {
+      font-size: 10px;
+    }
+    .footer-below {
+      gap: 10px;
+      margin-top: -50px;
+    }
+    .contact {
+      scale: 0.7;
+    }
+  
+    .upside-left {
+      width: 60vw;
+      margin-left: 8vw;
+      margin-top: -10vh;
+    }
+    .upside-right {
+      margin-left: 28vw;
+      margin-top: 20vh;
+    }
+    .upside-right img {
+      width: 35vw;
+    }
+  
+    .below-upside {
+      margin-left: -20vw;
+      width: 40vw;
+      font-size: 11px;
+    }
+    .below-downside {
+      margin-left: -20vw;
+    }
+    .below-right {
+      font-size: 11px;
+    }
+    .btn-pink {
+      scale: 0.8;
+      margin-top: 7vh;
+    }
+    .some {
+      flex-direction: column;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) and (min-width: 300px) {
+    /* Styles for extra small devices */
+    .navbar-container .link {
+      font-size: 0.8rem;
+    }
+  
+    .footer-container {
+      gap: -20px;
+    }
+    .picture-card {
+      scale: 0.5;
+      margin-top: -50px;
+    }
+    .picture img {
+      width: 150%;
+    }
+    .Tech-Buzz {
+      width: 60vw;
+    }
+    .logo-image {
+      scale: 1.2;
+    }
+    .logo-para {
+      font-size: 10px;
+    }
+    .footer-below {
+      gap: 10px;
+      margin-top: -50px;
+    }
+    .contact {
+      scale: 0.7;
+    }
+  
+    .upside-left {
+      width: 60vw;
+      margin-left: 8vw;
+      margin-top: -10vh;
+    }
+    .upside-right {
+      margin-left: 28vw;
+      margin-top: 20vh;
+    }
+    .upside-right img {
+      width: 30vw;
+    }
+  
+    .below-upside {
+      margin-left: -20vw;
+      width: 40vw;
+      margin-top: 5vh;
+      font-size: 14px;
+    }
+    .below-downside {
+      margin-left: -20vw;
+    }
+    .below-right {
+      position: relative;
+      right: 5vw;
+      font-size: 14px;
+    }
+    .btn-pink {
+      scale: 0.8;
+      margin-top: 7vh;
+    }
+    .some {
+      flex-direction: column;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    .footer-container {
+      gap: -20px;
+    }
+  
+    .picture img {
+      width: 150%;
+    }
+  
+    .logo-image {
+      scale: 1.2;
+    }
+    .logo-para {
+      font-size: 15px;
+    }
+    .footer-below {
+      gap: 10px;
+      margin-top: -50px;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for medium devices */
+    .footer-container {
+      gap: -20px;
+    }
+  
+    .picture img {
+      width: 350px;
+    }
+    .picture {
+      width: 100%;
+      height: 90%;
+    }
+    .picture-content {
+      width: 100%;
+    }
+  
+    .upside-right {
+      margin-top: 10vh;
+      margin-right: 5vw;
+    }
+    .upside-right img {
+      width: 30vw;
+    }
+    .below-upside {
+      margin-left: -20vw;
+      width: 40vw;
+      margin-top: 5vh;
+      font-size: 20px;
+    }
+  
+    .below-right {
+      position: relative;
+      right: 5vw;
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (width <=1000px) {
+    .about-content h1 {
+      font-size: 1.9rem;
+      text-align: center;
+      left: 25%;
+    }
+    .faculty-content h1 {
+      font-size: 1.9rem;
+      text-align: center;
+    }
+    .Image {
+      width: auto;
+      height: 450px;
+    }
+    .WhiteCard {
+      height: 480px;
+    }
+    .WhiteCard_Register{
+      height: 500px;
+    }
+    .Left_design{
+      max-width: 30%;
+      max-height: 45%;
+      top: -3%;
+    }
+    .Right_design{
+      max-width: 30%;
+      max-height: 45%;
+      transform: scaleX(-1);
+      top: -3%;
+      left: 70%;
+    }
+    .design {
+      height: 450px;
+      width: 283px;
+      margin: 10px;
+    }
+    .card {
+      height: 600px;
+    }
+    .picture-card {
+      transform: scale(0.9);
+      width: 150px;
+      height: 190px;
+    }
+    .Register_design{
+      transform: scale(0.6);
+      top: 40%;
+      width: 48.5rem;
+      height: 10.7rem;
+    }
+    .button_register{
+      left: 35%;
+    }
+    .some{
+      font-size: small;
+    }
+    .about_Rohitsir{
+      font-size: small;
+      width: 40%;
+      position: absolute;
+      left: 60%;
+    }
+  }
+  @media screen and (width <=950px) {
+    .design {
+      height: 300px;
+      width: 200px;
+      margin-top: 80px;
+      margin-left: 20px;
+      align-items: center;
+    }
+    .WhiteCard {
+      height: 60%;
+    }
+    .about-content h1{
+      font-size: 1.8rem;
+    } 
+    .Register_design{
+      transform: scale(0.6);
+      top: 40%;
+      width: 48.5rem;
+      height: 10.7rem;
+    }
+    .button_register{
+      left: 33%;
+    }
+    .card{
+      height: 650px;
+    }
+  }
+  @media screen and (width <=850px) {
+    .design {
+      height: 300px;
+      width: 200px;
+      margin-top: 80px;
+      margin-left: 20px;
+      align-items: center;
+    }
+    .Image {
+      width: auto;
+      height: 400px;
+    }
+    .Left_register{
+      width: 20rem;
+    }
+    .Right_register{
+      width: 20rem;
+    }
+    .about-content h1{
+      font-size: 1.5rem;
+    } 
+    .Register_design{
+      transform: scale(0.6);
+      top: 40%;
+      width: 36.4rem;
+      height: 8rem;
+    }
+    .button_register{
+      left: 31%;
+    }
+  }
+  @media screen and (width <=800px) {
+    .about-content h1 {
+      font-size: 1.5rem;
+      text-align: center;
+      top: 15%;
+      left: 25%;
+    }
+    .faculty-content h1 {
+      font-size: 1.9rem;
+      text-align: center;
+      left: 37%;
+    }
+    .Image {
+      width: auto;
+      height: 400px;
+    }
+    .design {
+      height: 250px;
+      width: 160px;
+      margin-top: 80px;
+      margin-left: 20px;
+      align-items: center;
+    }
+    .WhiteCard section h4{
+      font-size: medium;
+    }
+    .WhiteCard section h5{
+      font-size: small;
+      left: 39%;
+    }
+    .WhiteCard section h6{
+      font-size: small;
+      left: 28%;
+    }
+    .WhiteCard section p{
+      font-size: small;
+      top: 57%;
+    }
+  }
+  @media screen and (width <= 770px) {
+    .about-content h1 {
+      font-size: 1.5rem;
+      text-align: center;
+      left: 10%;
+      width: 80%;
+    }
+    .faculty-content h1 {
+      font-size: 1.9rem;
+      text-align: center;
+    }
+    .Image {
+      width: auto;
+      height: 380px;
+    }
+    .design {
+      height: 250px;
+      width: 160px;
+      margin-top: 80px;
+      margin-left: 20px;
+      align-items: center;
+    }
+    .Rohit{
+      transform: scale(0.7);
+      top: -3%;
+    }
+    .card {
+      height: 75%;
+    }
+    .WhiteCard section h4{
+      top: 35%;
+      left: 44.5%;
+      font-size: medium;
+    }
+    .WhiteCard section h5{
+      top: 40%;
+      font-size: small;
+      left: 38%;
+    }
+    .WhiteCard section h6{
+      top: 45%;
+      font-size: small;
+      left: 27%;
+    }
+    .WhiteCard section p{
+      font-size: small;
+      top: 50%;
+    }
+  }
+  @media screen and (width <= 730px) {
+    .Image {
+      width: auto;
+      height: 330px;
+    }
+  }
+  @media screen and (width <= 700px) {
+    .about-content h1 {
+      font-size: 1.5rem;
+      text-align: center;
+      left: 10%;
+      width: 80%;
+    }
+    .faculty-content h1 {
+      font-size: 1.9rem;
+      text-align: center;
+      left: 34%;
+    }
+    .Image {
+      width: auto;
+      height: 300px;
+    }
+    .design {
+      height: 250px;
+      width: 160px;
+      align-items: center;
+    }
+    .WhiteCard {
+      height: 52%;
+    }
+    .card {
+      height: 67%;
+    }
+    .Left_register{
+      width: 15rem;
+    }
+    .Right_register{
+      width: 15rem;
+    }
+    .WhiteCard section h4{
+      top: 39%;
+      left: 44%;
+      font-size: medium;
+    }
+    .WhiteCard section h5{
+      top: 44%;
+      font-size: small;
+      left: 37.5%;
+    }
+    .WhiteCard section h6{
+      top: 49%;
+      font-size: small;
+      left: 26%;
+    }
+    .WhiteCard section p{
+      font-size: x-small;
+      top: 55%;
+    }
+  }
+  @media screen and (width <= 650px) {
+    .Image {
+      width: auto;
+      height: 300px;
+    }
+    .design {
+      height: 200px;
+      width: 140px;
+      align-items: center;
+    }
+    .Register_form{
+      align-items: center;
+      flex-direction: column;
+    }
+    .Transperent_card{
+      height: 130%;
+    }
+    .footer_Registrypage{
+      top: 1220px;
+    }
+    .Left_register{
+      width: 25rem;
+    }
+    .Right_register{
+      margin-top: 20px;
+      width: 25rem;
+    }
+    .Register_design{
+      transform: scale(0.6);
+      top: 40%;
+      width: 30rem;
+      height: 6.6rem;
+    }
+  }
+  @media screen and (width <= 600px) {
+    .about-content h1 {
+      font-size: 1.4rem;
+      text-align: center;
+      left: 10%;
+      width: 80%;
+    }
+    .Image {
+      width: auto;
+      height: 280px;
+    }
+    .design {
+      height: 170px;
+      width: 110px;
+      margin-left: 20px;
+      align-items: center;
+    }
+    .some{
+      font-size: smaller;
+    }
+    .upside-left{
+      width: 80%;
+    }
+    .btn-pink{
+      left: 25%;
+      width: 250px;
+      height: 75px;
+      font-size: 23px;
+      font-weight: 400;
+    }
+  }
+  
+  @media screen and (width <= 550px) {
+    .about-content h1 {
+      font-size: 1.2rem;
+      text-align: center;
+      left: 10%;
+      width: 80%;
+    }
+    .faculty-content h1 {
+      font-size: 1.9rem;
+      text-align: center;
+      left: 29%;
+    }
+    .Image {
+      width: auto;
+      height: 250px;
+    }
+    .design {
+      height: 170px;
+      width: 110px;
+      margin-top: 80px;
+      margin-left: 20px;
+      align-items: center;
+    }
+    .button_register{
+      left: 30%;
+      width: 40%;
+      height: 10%;
+      font-size: 100%;
+    }
+  }
+  
+  @media screen and (width <=500px) {
+    .about-content h1 {
+      font-size: 1.3rem;
+      text-align: center;
+      left: 15%;
+      width: 70%;
+    }
+    .Image {
+      width: auto;
+      height: 380px;
+    }
+    .design {
+      display: none;
+    }
+    .mobile_design {
+      display: block;
+      height: 80px;
+      width: 300px;
+      margin: 20px;
+    }
+    .WhiteCard {
+      height: 115%;
+    }
+    .Rohit{
+      top: 2%;
+    }
+    .card {
+      height: 985px;
+    }
+    .footer_facultypage {
+      top: 1250px;
+    }
+    .Register_design{
+      transform: scale(0.6);
+      top: 40%;
+      width: 27.8rem;
+      height: 6.1rem;
+    }
+    .WhiteCard_Register{
+      height: 900px;
+    }
+    .WhiteCard section h4{
+      top: 22%;
+      left: 41%;
+      font-size: medium;
+    }
+    .WhiteCard section h5{
+      font-size: small;
+      top: 25%;
+      left: 31%;
+    }
+    .WhiteCard section h6{
+      top: 28%;
+      font-size: small;
+      text-align: center;
+      left: 11%;
+      width: 80%;
+    }
+    .WhiteCard section p{
+      font-size: medium;
+      top: 30%;
+    }
+    .Left_design{
+      max-width: 40%;
+      max-height: 15%;
+      top: -1%;
+      left: 0%;
+    }
+    .Right_design{
+      max-width: 40%;
+      max-height: 15%;
+      transform: scaleX(-1);
+      top: -1%;
+      left: 69%;
+    }
+    .button_register{
+      left: 30%;
+      width: 40%;
+      height: 50px;
+      font-size: 100%;
+    }
+    .btn-pink{
+      left: 22%;
+      top: 90%;
+    }
+  }
+  
+  @media screen and (width <= 478px) {
+    .Image {
+      margin: 10px;
+    }
+    .card {
+      height: 93%;
+    }
+    .card {
+      height: 1070px;
+    }
+    .Register_design{
+      transform: scale(0.6);
+      top: 40%;
+      width: 27.8rem;
+      height: 6.1rem;
+    }
+  }
+  @media screen and (width <= 450px) {
+    .about-content h1 {
+      font-size: 1.2rem;
+      text-align: center;
+      left: 10%;
+      width: 80%;
+    }
+    .faculty-content h1 {
+      font-size: 1.9rem;
+      text-align: center;
+      left: 24%;
+    }
+    .Image {
+      width: auto;
+      height: 380px;
+    }
+    .design {
+      display: none;
+    }
+    .WhiteCard {
+      height: 125%;
+    }
+    .card {
+      height: 140%;
+    }
+    .Left_register{
+      width: 20rem;
+    }
+    .WhiteCard_Register{
+      height: 130%;
+    }
+    .Right_register{
+      margin-top: 20px;
+      width: 20rem;
+    }
+    .footer_facultypage{
+      top: 170%;
+    }
+    .Register_design{
+      transform: scale(0.6);
+      top: 40%;
+      width: 22.88rem;
+      height: 5rem;
+    }
+    .about_Rohitsir{
+      width: 25%;
+      left: 75%;
+    }
+    .btn-pink{
+      left: 19%;
+      top: 90%;
+    }
+  }
+  @media screen and (width <=400px) {
+    .about-content h1 {
+      font-size: 1.2rem;
+      text-align: center;
+      left: 10%;
+      width: 80%;
+    }
+    .faculty-content h1 {
+      font-size: 1.9rem;
+      text-align: center;
+      left: 20%;
+    }
+    .Image {
+      width: auto;
+      height: 380px;
+    }
+    .design {
+      display: none;
+    }
+    .WhiteCard {
+      height: 140%;
+    }
+    .card {
+      height: 155%;
+    }
+    .footer_facultypage {
+      top: 175%;
+    }
+    .footer-container {
+      gap: -20px;
+    }
+    .picture-card {
+      margin: -15px;
+    }
+    .Left_register{
+      width: 15rem;
+    }
+    .Right_register{
+      margin-top: 20px;
+      width: 15rem;
+    }
+    .WhiteCard section h4{
+      top: 200px;
+      left: 38.5%;
+    }
+    .WhiteCard section h5{
+      top: 225px;
+      left: 28%;
+    }
+    .WhiteCard section h6{
+      top: 245px;
+    }
+    .WhiteCard section p{
+      top: 265px;
+    }
+    .Register_design{
+      transform: scale(0.4);
+      top: 40%;
+      width: 800px;
+      height: 5rem;
+    }
+    .navbar-container .link{
+      font-size: 13px
+    }
+    .btn-pink{
+      left: 13%;
+      top: 90%;
+    }
+  }
+  
+  @media screen and (width <=360px) {
+    .about-content h1 {
+      font-size: 0.95rem;
+      text-align: center;
+      left: 15%;
+      top: 16%;
+      width: 70%;
+    }
+    .faculty-content h1 {
+      font-size: 1.5rem;
+      text-align: center;
+      left: 24%;
+      top: 15%;
+    }
+    .footer_facultypage {
+      top: 1400px;
+    }
+    .picture-card {
+      margin: -20px;
+    }
+    .WhiteCard section h4{
+      top: 200px;
+      left: 38.5%;
+    }
+    .WhiteCard section h5{
+      top: 225px;
+      left: 26.5%;
+    }
+    .WhiteCard section h6{
+      top: 245px;
+    }
+    .WhiteCard section p{
+      top: 265px;
+    }
+    .Register_design{
+      transform: scale(0.5);
+      top: 40%;
+      width: 910px;
+      height: 71px;
+    }
+    .navbar-container .link{
+      font-size: 9px
+    }
+    .btn-pink{
+      left: 15%;
+      top: 105%;
+      width: 200px;
+    }
+  }
+  
+  @media screen and (height >= 1024px) {
+    .footer_facultypage{
+      top: 100%;
+    }
+    .card{
+      height: 90%;
+    }
+    .WhiteCard{
+      height: 80%;
+      top: 18%;
+    }
+    .about-content h1{
+      font-size: 1.5rem;
+    }   
+    .WhiteCard section p{
+      font-size: 1.2rem;
+    }
+    .WhiteCard section h4{
+      font-size: large;
+      left: 44.5%;
+    }
+    .WhiteCard section h5{
+      font-size: medium;
+      left: 36.5%;
+    }
+    .WhiteCard section h6{
+      font-size: small;
+      left: 26%;
+    }
+    .Left_design{
+      max-width: 40%;
+      max-height: 25%;
+      top: -2%;
+      left: 0%;
+    }
+    .Right_design{
+      max-width: 40%;
+      max-height: 25%;
+      transform: scaleX(-1);
+      top: -2%;
+      left: 69%;
+    }
+    .WhiteCard_Register{
+      height: 800px;
+    }
+  }
+  @media screen and (width <= 290px) {
+    .WhiteCard {
+      height: 120%;
+      top: 20%;
+    }
+    .Image {
+      width: auto;
+      height: 340px;
+      margin: auto;
+    }
+    .design {
+      display: none;
+    }
+    .card {
+      height: 130%;
+    }
+    .mobile_design {
+      display: block;
+      height: 50px;
+      width: 200px;
+      margin: 20px;
+    }
+    .picture-card {
+      margin-left: -30px;
+    }
+    .footer_facultypage {
+      top: 145%;
+    }
+    .WhiteCard section p{
+      top: 300px;
+      font-size: x-small;
+    }
+    .Rohit{
+      transform: scale(0.5);
+    }
+    .about-content section h4{
+      left: 34.5%;
+    }
+    .about-content section h5{
+      left: 15.5%;
+      align-items: center;
+    }
+    .btn-pink{
+      left: 8%;
+      top: 105%;
+      width: 200px;
+    }
+  }
+  

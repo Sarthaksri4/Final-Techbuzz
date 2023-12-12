@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Poppins:wght@700;800;900&family=Share+Tech&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Poppins:wght@300;400;700;800;900&family=Share+Tech&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: poppins, share tech;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(./assets/cage.png), #090a0f;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ 
+  
+}
+.navbar-container {
+  display: flex;
+  margin-left: 3vw;
+  width: 55%;
+  justify-content: space-between;
+  color: #fff;
+  gap: 50px;
+  margin-top: 4vh;
+  position: fixed;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+
+.navbar-container .link {
+  color: #fff;
+  font-size: 1rem;
+  margin-right: -4.5vw;
+  background-clip: text;
+}
+.navbar-container .link:active {
+  background: #fff;
+  width: 150px;
+  color: #090a0f;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: 0.3s;
+  border-radius: 5px;
+  text-align: center;
+}
+.ccc-logo img {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  width: 2.5rem;
+}
+.Header {
+  position: sticky;
+}
+
+.priya_maamphoto{
+  height: 100px;
+}
